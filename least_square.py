@@ -36,7 +36,7 @@ def show_plot():
 	plt.show()
 
 def get_fit():
-		# REGRESSION ------------------------------------------------------------------
+	# REGRESSION ------------------------------------------------------------------
 	p0 = [-1, -3e-3, 1]                                        # guessed params
 	w, _ = opt.curve_fit(func, x_samp, y_samp, p0=p0)     
 	print("Estimated Parameters", w)  
