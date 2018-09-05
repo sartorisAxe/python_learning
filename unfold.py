@@ -1,5 +1,7 @@
 #open an input file for further analysis
 def unfold(path_name):
+    distance = []
+    amplitude = []
     try:
         with open(path_name) as f:
             for line in f:
